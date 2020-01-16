@@ -66,18 +66,18 @@ h1, h2, h3, h4, h5 {
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 body{
 	max-width: 100%;
-	margin-left: 17%;
-	margin-right: 17%;
+	margin-left: 15%;
+	margin-right: 15%;
 }
 
 .navigation{
-	border: 1px solid red;
+	/* border: 1px solid red; */
 	display: flex;
 }
 
 .navigation a {
 	text-decoration: none;
-	border: 1px solid green;
+	/* border: 1px solid green; */
 	color: grey;
 	width:15%;
   	display: flex;
@@ -86,17 +86,12 @@ body{
 }
 
 .logo{
-	border: solid 4px purple;
+	/* border: solid 4px purple; */
 	/* align-items: flex-end; */
 }
 
-
-
-
-
-
 .container{
-	border: solid 5px rebeccapurple;
+	/* border: solid 5px rebeccapurple; */
 }
 
 .together{
@@ -109,7 +104,7 @@ body{
 on individual items? */
 
 .title h1{
-	border: solid 6px yellowgreen;
+	/* border: solid 6px yellowgreen; */
 	font-size: 550%;
 	text-align: center;
 	margin-right: -10%;
@@ -119,7 +114,7 @@ on individual items? */
 /* why is title not going any bigger? */
 
 div.cImage{
-	border: solid 4px pink;
+	/* border: solid 4px pink; */
 	/* display: flex; */
 	/* align-self: flex-end;
 	flex-direction: column; */
@@ -153,6 +148,7 @@ start? */
 	border-top: solid 1px black;
 	display: flex;
 	justify-content: space-between;
+	padding-top: 2%;
 }
 
 .first{
@@ -164,12 +160,18 @@ start? */
 }
 
 .middle-img{
-	border: solid 4px burlywood;
+	/* border: solid 4px burlywood; */
+	padding-top: 2%;
+	padding-bottom: 1%;
+	width: 100%;
 }
 
 .bottom-content{
-	border: solid 4px greenyellow;
+	/* border: solid 4px greenyellow; */
 	display: flex;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	justify-content: space-between;
 }
 
 .third{
@@ -186,13 +188,11 @@ start? */
 
 .contact-section{
 	border-top: solid 1px black;
-}
-
-.contact-section address h6{
+	padding-top: 1%;
 }
 
 .copyright{
-	border: solid 4px blueviolet;
+	/* border: solid 4px blueviolet; */
 	text-align: center;
 }
 
