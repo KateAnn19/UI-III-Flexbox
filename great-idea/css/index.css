@@ -159,7 +159,7 @@ start? */
 	width: 40%;
 }
 
-.middle-img{
+.services-header-img,.middle-img{
 	/* border: solid 4px burlywood; */
 	padding-top: 2%;
 	padding-bottom: 1%;
@@ -195,5 +195,92 @@ start? */
 	/* border: solid 4px blueviolet; */
 	text-align: center;
 }
+
+/* services CSS starts */
+
+
+.box1{
+	background-color: lightgrey;
+	border: 1px solid black;
+	padding: 2%;
+}
+
+  .box2{
+	background-color: lightgrey;
+	border: 1px solid black;
+	padding: 2%;
+}
+
+.row1{
+	display:flex;
+	width: 100%;
+	border: 1px solid black;
+}
+
+
+  .box3{
+	background-color: lightgrey;
+	border: 1px solid black;
+	padding: 2%;
+}
+  .box4 {
+	background-color: lightgrey;
+	border: 1px solid black;
+	padding: 2%;
+}
+
+ .row2{
+	display:flex;
+	width:100%;
+}
+
+.box5{
+	background-color: lightgrey;
+	border: 1px solid black;
+	padding: 2%;
+}
+.box6 {
+	background-color: lightgrey;
+	border: 1px solid black;
+	padding: 2%;
+}
+
+.row3{
+	display:flex;
+	width: 100%;
+}
+
+.pBorder{
+	border: 1px solid black;
+	border-radius: 2px;
+}
+
+  ul{
+	list-style-type:square;
+  }
+
+  .bottom-info{
+	  display: flex;
+	  border-top: 1px solid black;
+	  justify-content: space-between;
+	}
+
+.last-p{
+	margin-right: 60%;
+	margin-top: -25%;
+}
+
+#serv-copy{
+	margin-top: 100%;
+}
+
+.list{
+	padding-left: 2%;
+}
+
+.bottom-copy{
+	padding-top: 20%;
+}
+
 
 
