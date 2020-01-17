@@ -199,60 +199,87 @@ start? */
 /* services CSS starts */
 
 
+.services-about{
+	margin-bottom: 2%;
+	border-bottom: 2px solid black;
+	padding-bottom: 4%;
+	margin-top: 2%;
+}
+
 .box1{
 	background-color: lightgrey;
 	border: 1px solid black;
 	padding: 2%;
+	width: 48%;
 }
 
-  .box2{
+.box2{
 	background-color: lightgrey;
 	border: 1px solid black;
 	padding: 2%;
+	width: 48%;
 }
 
 .row1{
 	display:flex;
 	width: 100%;
-	border: 1px solid black;
+	margin: 10px 0;
+	justify-content: space-between;
 }
 
 
-  .box3{
+.box3{
 	background-color: lightgrey;
 	border: 1px solid black;
 	padding: 2%;
+	width: 48%;
 }
-  .box4 {
+.box4 {
 	background-color: lightgrey;
 	border: 1px solid black;
 	padding: 2%;
+	width: 48%;
 }
 
- .row2{
+.row2{
 	display:flex;
 	width:100%;
+	margin: 10px 0;
+	justify-content: space-between;
 }
 
 .box5{
 	background-color: lightgrey;
 	border: 1px solid black;
 	padding: 2%;
+	width: 48%;
 }
 .box6 {
 	background-color: lightgrey;
 	border: 1px solid black;
 	padding: 2%;
+	width: 48%;
 }
 
 .row3{
 	display:flex;
 	width: 100%;
+	margin: 10px 0;
+	justify-content: space-between;
 }
 
 .pBorder{
 	border: 1px solid black;
-	border-radius: 2px;
+	border-radius: 3px;
+	margin-right: 80%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	padding-right: 3%;
+	padding-left: 1.5%;
+	margin-top: 3%;
+	text-align: center;
+	background-color: white;
+	font-size: 85%;
 }
 
   ul{
@@ -261,13 +288,15 @@ start? */
 
   .bottom-info{
 	  display: flex;
-	  border-top: 1px solid black;
+	  border-top: 2px solid black;
 	  justify-content: space-between;
+	  margin-top: 2%;
+	  padding-top: 2%;			
 	}
 
 .last-p{
-	margin-right: 60%;
-	margin-top: -25%;
+	margin-right: 50%;
+	margin-top: -24%;
 }
 
 #serv-copy{
@@ -276,10 +305,11 @@ start? */
 
 .list{
 	padding-left: 2%;
+	padding-top: 2%;
 }
 
 .bottom-copy{
-	padding-top: 20%;
+	padding-top: 10%;
 }
 
 
